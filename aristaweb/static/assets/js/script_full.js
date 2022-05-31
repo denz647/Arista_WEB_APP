@@ -12,8 +12,8 @@ const rasa_server_url = "http://localhost:5005/webhooks/rest/webhook";
 //const rasa_server_url = `http://${IP}/webhooks/rest/webhook`;
 //const handoff_server_url = `http://${IP}/webhooks/rest/webhook`; // UNUSED Human handoff
 
-const botPic  = "./assets/img/botAvatar.png";
-const userPic = "./assets/img/userAvatar.png";
+const botPic  = "https://dashboard.betterbot.ai/uploads/images/personalize/imagec9c0ce02944ff4f6382ca21b363d7874.png";
+const userPic = "https://images.assetsdelivery.com/compings_v2/panyamail/panyamail1809/panyamail180900343.jpg";
 
 const action_name = "action_utter_greet";
 const sender_id = "W-" + uuidv4();
